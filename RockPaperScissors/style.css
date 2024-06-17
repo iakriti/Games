@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-style: border-box;
+}
+
+body {
+    background-color: #84828F;
+}
+
+#title {
+    margin-top: 7vmin;
+    margin-bottom: 7vmin;
+    font-size: 5vmin;
+    text-align: center;
+    line-height: 5vmin;
+    background-color: #3E4C5E;
+    padding: 5px;
+    border: 5px solid #2C3D55;
+
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.option {
+    border-radius: 50%;
+}
+
+.option:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 60rem;
+    font-size: 25px;
+}
+
+#user1played,
+#compplayed {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+#msgbox {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.msg {
+    background-color: #3E4C5E;
+    display: inline;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 5px solid #2C3D55;
+
+}
